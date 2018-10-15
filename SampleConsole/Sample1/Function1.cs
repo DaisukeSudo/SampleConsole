@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SampleConsole
+namespace SampleConsole.Sample1
 {
     public class Function1
     {

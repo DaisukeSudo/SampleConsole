@@ -6,7 +6,7 @@ namespace SampleConsole
     {
         static void Main(string[] args)
         {
-            Function1.Run();
+            Sample1.Function1.Run();
 
             Console.ReadKey();
         }
