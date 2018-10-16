@@ -8,6 +8,8 @@ namespace SampleConsole.Sample1
     {
         public static void Run()
         {
+            Console.WriteLine("Function1.Run \n");
+
             Console.WriteLine("Inc(4)");
             Console.WriteLine($"> {Inc(4)} \n");
 

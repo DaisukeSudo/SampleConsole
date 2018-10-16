@@ -8,6 +8,8 @@ namespace SampleConsole
         {
             Sample1.Function1.Run();
 
+            Sample1.Caller.Run();
+
             Console.ReadKey();
         }
     }
