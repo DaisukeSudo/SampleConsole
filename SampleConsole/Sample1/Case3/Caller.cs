@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 
-namespace SampleConsole.Sample1
+namespace SampleConsole.Sample1.Case3
 {
     public class Caller
     {

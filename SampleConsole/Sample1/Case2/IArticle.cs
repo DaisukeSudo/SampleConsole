@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SampleConsole.Sample1
+namespace SampleConsole.Sample1.Case2
 {
     public interface IArticle
     {

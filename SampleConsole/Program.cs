@@ -6,11 +6,7 @@ namespace SampleConsole
     {
         static void Main(string[] args)
         {
-            Sample1.Function1.Run();
-
-            Sample1.Caller.Run();
-
-            Console.ReadKey();
+            new Sample1.Tasklet().Run();
         }
     }
 }
