@@ -8,9 +8,11 @@ namespace SampleConsole.Sample1
     {
         public void Run()
         {
-            Case1.Function1.Run();
+            Case1.Caller.Run();
 
             Case3.Caller.Run();
+
+            Case4.Caller.Run();
 
             Console.ReadKey();
         }
