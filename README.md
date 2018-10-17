@@ -1,2 +1,2 @@
 # SampleConsole
-Samples for C #
+Samples for commentary
