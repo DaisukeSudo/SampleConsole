@@ -6,7 +6,8 @@ namespace SampleConsole
     {
         static void Main(string[] args)
         {
-            new Sample1.Tasklet().Run();
+            // new Sample1.Tasklet().Run();
+            new Sample2.Tasklet().Run();
         }
     }
 }
