@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
-using static SampleConsole.Sample3.Case1.Applicability;
+using static SampleConsole.Sample3.Case1.Function2;
+using static SampleConsole.Sample3.Case1.VectorUtil;
 
 namespace SampleConsole.Sample3.Case1
 {
