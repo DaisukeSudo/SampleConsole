@@ -15,6 +15,6 @@ namespace SampleConsole.Sample3.Case3
             Name = name;
         }
 
-        public void CommonMethod() {}
+        public virtual void CommonMethod() => Console.WriteLine($"Hi! I'm {Name}.");
     }
 }

@@ -8,6 +8,8 @@ namespace SampleConsole.Sample3.Case3
     {
         public SubClassB(int id, string name) : base(id, name) { }
 
-        public void OriginalMethodB() { }
+        public void OriginalMethodB() => Console.WriteLine("This is OriginalMethodB");
+
+        public override void CommonMethod() => Console.WriteLine($"Hi! I'm {Name}. My ID is {Id}.");
     }
 }
