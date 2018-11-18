@@ -32,7 +32,7 @@ namespace SampleConsole.Sample3_5.Case4
             }
         }
 
-        public U Execute<T, U>(Func<TransactionInfo, U> proc)
+        public T Execute<T>(Func<TransactionInfo, T> proc)
         {
             // Start transaction
             var info = StartTransaction();
