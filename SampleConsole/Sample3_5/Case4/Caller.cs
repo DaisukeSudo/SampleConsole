@@ -11,6 +11,8 @@ namespace SampleConsole.Sample3_5.Case4
         public static void Run()
         {
             Console.WriteLine("Case4 \n");
+
+            new Client(new Container()).MainProcess();
         }
     }
 }
