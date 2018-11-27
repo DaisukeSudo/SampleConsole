@@ -6,8 +6,8 @@ namespace SampleConsole.Sample4.Case2.Before.DomainB
 {
     public enum FruitType
     {
-        Orange = 1,
-        Apple = 2,
+        Apple = 1,
+        Orange = 2,
         Banana = 3,
         Kiwi = 4,
     }
