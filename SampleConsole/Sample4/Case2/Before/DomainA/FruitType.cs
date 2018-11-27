@@ -9,6 +9,7 @@ namespace SampleConsole.Sample4.Case2.Before.DomainA
         public static int Apple = 1;
         public static int Orange = 2;
         public static int Banana = 3;
-        public static int Kiwi = 4;
+        public static int Mango = 4;
+        public static int Kiwi = 5;
     }
 }

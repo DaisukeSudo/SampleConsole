@@ -18,17 +18,17 @@ namespace SampleConsole.Sample4.Case2.Before.DomainB
 
         public void Run()
         {
-            var person = PersonService.Get("Taro");
-            Console.WriteLine("His favorite fruit is an apple.");
+            var taro = PersonService.Get("Taro");
+            Console.WriteLine("Taro's favorite fruit is an apple");
 
-            var fruitType = FruitShop.RecommendedOrder();
-            Console.WriteLine("The recommended fruit is also an apple.");
+            var apple = FruitShop.Order(taro.FavoriteFruit);
+            Console.WriteLine($"The fruit ordered is {apple}");
 
-            var result = IsFavoriteFruit(person, fruitType);
-            Console.WriteLine($"Is match the favorite fruit ? => {result}");
+            var joseph = PersonService.Get("Joseph");
+            Console.WriteLine("Joseph's favorite fruit is a banana");
+
+            var banana = FruitShop.Order(joseph.FavoriteFruit);
+            Console.WriteLine($"The fruit ordered is {banana}");
         }
-
-        public bool IsFavoriteFruit(Person person, FruitType fruitType) =>
-            person.FavoriteFruit == (int)fruitType;
     }
 }
