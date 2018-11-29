@@ -8,8 +8,8 @@ namespace SampleConsole.Sample4.Case3.Before
     {
         public static int FunctionA(int x) => x + x;
 
-        public static int FunctionB(int x) => FunctionA(x);
+        public static int FunctionB(int x) => FunctionA(x) + x;
 
-        public static int FunctionC(int x) => FunctionB(x);
+        public static int FunctionC(int x) => FunctionA(x) + FunctionB(x) + x;
     }
 }
